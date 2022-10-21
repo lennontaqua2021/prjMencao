@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final String title;
+  String nome = "";
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
   @override
